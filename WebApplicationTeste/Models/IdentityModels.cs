@@ -29,5 +29,7 @@ namespace WebApplicationTeste.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebApplicationTeste.Models.Model_3D> Model_3D { get; set; }
     }
 }
